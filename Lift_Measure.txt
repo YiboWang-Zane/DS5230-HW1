@@ -1,0 +1,26 @@
+Given: Lift measure: lift(X ⇒ Y) = c(X⇒Y)/s(Y) where c(X⇒Y) is the confidence and s(Y) is the support
+
+Step 1: Express lift in terms of probabilities
+Confidence: c(X⇒Y) = P(Y|X) = P(X ∩ Y)/P(X)
+Support: s(Y) = P(Y)
+
+Therefore:
+lift(X ⇒ Y) = P(Y|X)/P(Y) = [P(X ∩ Y)/P(X)]/P(Y)
+
+Step 2: Simplify the lift expression
+lift(X ⇒ Y) = P(X ∩ Y)/(P(X) × P(Y))
+
+Step 3: Apply the condition that lift = 1
+If lift(X ⇒ Y) = 1, then:
+
+P(X ∩ Y)/(P(X) × P(Y)) = 1
+P(X ∩ Y) = P(X) × P(Y)
+
+The equation P(X ∩ Y) = P(X) × P(Y) is precisely the definition of statistical independence between events X and Y.
+
+CONCLUSION:
+When lift = 1, the joint probability of X and Y equals the product of their individual probabilities, which is the fundamental definition of independence. 
+
+This means:
+The occurrence of X does not affect the probability of Y occurring P(Y|X) = P(Y), confirming that knowing X occurred provides no information about Y
+Therefore, a lift of 1 mathematically implies that the antecedent and consequent are independent of each other.
