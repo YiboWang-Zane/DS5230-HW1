@@ -1,0 +1,83 @@
+(b)
+--- Conversion Statistics ---
+Input file: kosarak.dat
+Output file: kosarak.arff
+Transactions processed: 990,002
+Unique items found: 41,270
+Conversion time: 3.11 seconds
+
+(c)
+About 5 sec
+
+(d)
+=== Run information ===
+
+Scheme:       weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+Relation:     kosarak
+Instances:    990002
+Attributes:   41270
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
+FPGrowth found 14 rules
+
+ 1. [i3=1, i11=1]: 161286 ==> [i6=1]: 143682   <conf:(0.89)> lift:(1.47) lev:(0.05) conv:(3.6) 
+ 2. [i11=1]: 364065 ==> [i6=1]: 324013   <conf:(0.89)> lift:(1.47) lev:(0.1) conv:(3.57) 
+ 3. [i1=1]: 197522 ==> [i6=1]: 132113   <conf:(0.67)> lift:(1.1) lev:(0.01) conv:(1.19) 
+ 4. [i3=1]: 450031 ==> [i6=1]: 265180   <conf:(0.59)> lift:(0.97) lev:(-0.01) conv:(0.96) 
+ 5. [i6=1, i3=1]: 265180 ==> [i11=1]: 143682   <conf:(0.54)> lift:(1.47) lev:(0.05) conv:(1.38) 
+ 6. [i6=1]: 601374 ==> [i11=1]: 324013   <conf:(0.54)> lift:(1.47) lev:(0.1) conv:(1.37) 
+ 7. [i6=1, i11=1]: 324013 ==> [i3=1]: 143682   <conf:(0.44)> lift:(0.98) lev:(-0) conv:(0.98) 
+ 8. [i11=1]: 364065 ==> [i3=1]: 161286   <conf:(0.44)> lift:(0.97) lev:(-0) conv:(0.98) 
+ 9. [i6=1]: 601374 ==> [i3=1]: 265180   <conf:(0.44)> lift:(0.97) lev:(-0.01) conv:(0.98) 
+10. [i11=1]: 364065 ==> [i6=1, i3=1]: 143682   <conf:(0.39)> lift:(1.47) lev:(0.05) conv:(1.21) 
+11. [i3=1]: 450031 ==> [i11=1]: 161286   <conf:(0.36)> lift:(0.97) lev:(-0) conv:(0.99) 
+12. [i3=1]: 450031 ==> [i6=1, i11=1]: 143682   <conf:(0.32)> lift:(0.98) lev:(-0) conv:(0.99) 
+13. [i6=1]: 601374 ==> [i3=1, i11=1]: 143682   <conf:(0.24)> lift:(1.47) lev:(0.05) conv:(1.1) 
+14. [i6=1]: 601374 ==> [i1=1]: 132113   <conf:(0.22)> lift:(1.1) lev:(0.01) conv:(1.03) 
+
+21:00:55: Started weka.associations.FPGrowth
+21:00:55: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:00:55: Finished weka.associations.FPGrowth
+
+(e)
+Less than 1 sec to run each time.
+
+21:04:03: Started weka.associations.FPGrowth
+21:04:03: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:03: Finished weka.associations.FPGrowth
+21:04:06: Started weka.associations.FPGrowth
+21:04:06: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:06: Finished weka.associations.FPGrowth
+21:04:09: Started weka.associations.FPGrowth
+21:04:09: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:09: Finished weka.associations.FPGrowth
+21:04:10: Started weka.associations.FPGrowth
+21:04:10: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:10: Finished weka.associations.FPGrowth
+21:04:11: Started weka.associations.FPGrowth
+21:04:11: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:11: Finished weka.associations.FPGrowth
+21:04:12: Started weka.associations.FPGrowth
+21:04:12: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:12: Finished weka.associations.FPGrowth
+21:04:12: Started weka.associations.FPGrowth
+21:04:12: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:12: Finished weka.associations.FPGrowth
+21:04:13: Started weka.associations.FPGrowth
+21:04:13: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:13: Finished weka.associations.FPGrowth
+21:04:13: Started weka.associations.FPGrowth
+21:04:13: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:13: Finished weka.associations.FPGrowth
+21:04:14: Started weka.associations.FPGrowth
+21:04:14: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:14: Finished weka.associations.FPGrowth
+21:04:15: Started weka.associations.FPGrowth
+21:04:15: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:15: Finished weka.associations.FPGrowth
+21:04:15: Started weka.associations.FPGrowth
+21:04:15: Command: weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.1 -D 0.05 -U 1.0 -M 0.1 -S
+21:04:16: Finished weka.associations.FPGrowth
+
+
